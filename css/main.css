@@ -1,0 +1,382 @@
+/* Inserta tu codigo aqui */
+*{
+    margin: 0px auto;   
+    padding: 0px auto;
+}
+
+a:link, a:visited, a:active {
+    text-decoration: none;
+}
+
+.fondo{
+    width: 1300px;
+    height: 4400px;
+    background-color: rgb(224, 231, 231);
+}
+
+.container{
+    width: 1024px;
+    height: 4200px;
+    background-color: white;
+}
+
+.banner{
+    display: inline-block;
+    width: 1024px;
+    height: 80px
+}
+
+.banner img{
+    width: 80px;
+    height: 80px;
+    display: inline-block;
+    margin-left: 100px;
+}
+
+.navbar{
+    width: 800px;
+    height: 80px;
+    display: inline-block;
+    vertical-align: top;
+    text-align: center;
+}   
+
+.navbar li{
+    display: inline-block;
+    margin-top: 30px;
+    margin-left: 15px;
+    margin-right: 15px;
+}
+
+.mainbanner{
+    width: 1024px;
+    height: 350px;
+    object-fit:cover;
+}
+
+.mensaje1{
+    width: 1024px;
+    height: 100px;
+    background-color: rgb(240, 241, 241);
+}
+
+.mensaje1 p{
+    text-align: center;
+    padding: 25px;
+}
+
+.misionvision{
+    width: 1024px;
+    height: 300px;
+    display: inline-block;
+    background-color: rgb(255, 255, 255);
+}
+
+.modulo{
+    margin-left: 55px;
+    margin-right: 55px;
+    text-align: center;
+    width: 400px;
+    height: 300px;
+    display: inline-block
+}
+
+.modulo h2{
+    text-align: center;
+}
+
+.modulo p{
+    width: 400px;
+    text-align: center;
+    display: inline-block;
+}
+
+.modulo img{
+    width: 150px;
+    height: 150px;
+    display: inline-block;
+}
+
+.main{
+    width: 1024px;
+    height: 300px;
+    display: inline-block;
+    background-color: rgb(62, 156, 125);
+}
+
+.bannermain{
+    width: 512px;
+    height: 300px;
+    display: inline-block;
+}
+
+.bannermain img{
+    width: 512px;
+    height: 300px;
+}
+
+.textmain{
+    width: 508px;
+    height: 300px;
+    background-color: rgb(62, 156, 125);
+    text-align: center;
+    display: inline-block;
+    vertical-align: top;
+}
+
+.textmain img{
+    width: 40px;
+    height: 40px;
+    margin-bottom: 20px;
+    margin-top: 40px;
+    display: inline-block;
+}
+
+.textmain h2{
+    color: white;
+}
+
+.textmain p{
+    font-size: medium;
+    display: inline-block;
+    width: 400px;
+    color: white;
+}
+
+/** SERVICIOS **/
+
+.bajocentro{
+    width: 1024px;
+    height: 850px;
+    background-color: white;
+}
+
+.titulo1{
+    width: 1024px;
+    text-align: center;
+    vertical-align: top;
+}
+
+.titulo1 p{
+    margin-top: 20px;
+}
+
+.portalogos{
+    width: 1024px;
+    height: 720px;
+    display: inline-block;
+    text-align: center;
+}
+
+.logos{
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 20px;
+    text-align: center;
+    width: 300px;
+    height: 300px;
+    display: inline-block;
+    vertical-align: top;
+    margin-bottom: 50px;
+}
+
+/** PROYECTOS **/
+
+.proyectos{
+    padding-top: 25px;
+    margin-top: 0px;
+    width: 1024px;
+    height: 820px;
+    background-color: rgb(126, 172, 126);
+}
+
+/** esta clase titulocentro la uso en varias otras - no editar sin revisar **/
+
+.titulocentro{
+    text-align: center;
+    margin-top: 50px;
+}
+
+/** dejen titulo centro asi, es para centrar titulos **/
+
+.titulocolor{
+    color: white;
+}
+
+.portatexto{
+    width: 1024px;
+    height: 300px;
+    display: inline-block;
+    margin-top: 30px;
+    text-align: left;
+}
+
+.portatexto img{
+    width: 450px;
+    height: 300px;
+    display: inline-block;
+    margin-left: 50px;
+}
+
+.parraf{
+    width: 400px;
+    height: 300px;
+    vertical-align: top;
+    display: inline-block;
+    margin-left: 25px;
+    color: white;
+}
+
+.parraf p{
+    margin-top: 20px;
+}
+
+/** EQUIPO **/
+
+.equipo{
+    width: 1024px;
+    height: auto;
+    background-color: rgb(255, 255, 255);
+}
+
+.tituloequipo{
+    color: rgba(0, 187, 84, 0.911);
+}
+
+.contequipo{
+    width: 450px;
+    height: 530px;
+    text-align: center;
+    display: inline-block;
+    margin-left: 37px;
+}
+
+.coqueta{
+    border-radius: 400px;
+}
+
+.icors{
+    width: auto;
+    height: auto;
+    display: inline-block;
+}
+
+.icors img{
+    width: 30px;
+    height: 30px;
+}
+
+/** BLOG **/
+
+.blog{
+    width: 1024px;
+    height: 500px;
+    text-align: center;
+}
+
+.blog h2{
+    padding-top: 25px;
+}
+   
+.fondoblog{
+    background-image: url("/img/fondo2.jpg");
+    width: 1024px;
+    height: 500px;
+}
+
+.pecasld{
+    width: 50px;
+    height: 500px;
+    vertical-align: top;
+    display: inline-block;
+}
+
+.pecasld img{
+    width: 40px;
+    margin-top: 172px;
+    display: inline-block;
+}
+
+.posteo{
+    width: 230px;
+    height: 250px;
+    display: inline-block;  
+    text-align: left;
+    margin-left: 30px;
+    margin-right: 30px;
+    margin-top: 25px;
+}
+
+.imgposteo{
+    width: 230px;
+    height: 150px;
+    display: inline-block;
+}
+
+/** RR. SS. **/
+
+.redes-sociales{
+    width: 1024px;
+    height: 250px;
+    text-align: center;
+    background-color: grey;
+    display: inline-block;
+}
+
+.red{
+    width: 200px;
+    height: 200px;
+    display: inline-block;
+    margin-top: 25px;
+    vertical-align: top;
+    text-align: left;
+    border: solid 1px white;
+}
+
+.icofix{
+    width: 40px;
+    height: 40;
+    display: inline-block;
+    vertical-align: middle;
+    color: white;
+}
+
+.red img{
+    width: 40px;
+    display: inline-block;
+    margin-top: 20px;
+    margin-left: 80px;
+}
+
+.red p{
+    margin-left: 20px;
+}
+
+/** FOOTER **/
+
+.footer{
+    width: 1024px;
+    height: 100px;
+}
+
+.nombre{
+    width: 500px;
+    height: 55px;
+    display: inline-block;
+    vertical-align: top;
+    margin-top: 30px;
+}
+
+.alineizq{
+    text-align: left;
+    margin-left: 100px;
+}
+
+.alineder{
+    text-align: right;
+    margin-right: 80px;
+}
+
+.alineizq a{
+    color: rgb(255, 136, 0);
+}
